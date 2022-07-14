@@ -41,14 +41,10 @@ const useStyles = makeStyles((theme) => ({
       height: "calc(100vh - 56px)",
     },
   },
-
-  toolbar: {
-    paddingRight: 24, // keep right padding when drawer closed
-  },
-  toolbar: {
-paddingRight: 24, // keep right padding when drawer closed
-color: "white",
-background: process.env.REACT_APP_COLOR_TOOLBAR || "#128C7E"
+toolbar: {
+paddingRight: 24,
+color: “#FFFFFF”,
+background: “linear-gradient(to right, #0891B2, #FFC107 , #25D366)”
 },
   toolbarIcon: {
     display: "flex",
